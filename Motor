@@ -1,0 +1,37 @@
+using System;
+namespace Practica_POO
+{
+    public class Motor
+    {
+
+        private int litros_de_aceite;
+        private int potencia;
+
+        public Motor(int potencia)
+        {
+            this.litros_de_aceite = 0;
+            this.potencia = potencia;
+        }
+
+        public int GetLitrosDeAceite()
+        {
+            return this.litros_de_aceite;
+        }
+
+        public int GetPotencia()
+        {
+            return this.potencia;
+        }
+
+        public void SetLitrosDeAceite(int litros)
+        {
+            this.litros_de_aceite = litros;
+        }
+
+        public void SetPotencia(int potencia)
+        {
+            this.potencia = potencia;
+        }
+    }
+}
+	
